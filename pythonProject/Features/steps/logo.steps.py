@@ -10,7 +10,7 @@ def launch_browser(context):
 
 @when('View mitticool home page')
 def open_home_page(context):
-    print("Navigate to mitticool homepage")
+    print("Navigate to mitticool homepage updated")
     context.driver.get('https://www.mitticool.com/')
 
 @then('Check logo is present on homepage')
